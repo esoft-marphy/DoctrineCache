@@ -1,5 +1,5 @@
 {
-	"name": "kdyby/doctrine-cache",
+	"name": "esoft-marphy/doctrine-cache",
 	"type": "library",
 	"description": "Doctrine Cache bridge for Nette Framework",
 	"keywords": ["nette", "kdyby", "doctrine", "cache"],
@@ -17,9 +17,9 @@
 		"issues": "https://github.com/kdyby/doctrinecache/issues"
 	},
 	"require": {
-		"php": ">=5.4",
-		"nette/di": "~2.3@dev",
-		"nette/caching": "~2.3@dev",
+		"php": ">=7.0",
+		"nette/di": "*",
+		"nette/caching": "*",
 
 		"doctrine/cache": "~1.5"
 	},
